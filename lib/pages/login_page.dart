@@ -43,7 +43,10 @@ class LoginPage extends StatelessWidget {
                 SizedBox(
                   height: 20.0,
                 ),
-                ElevatedButton(onPressed: () {}, child: Text("Login")),
+                ElevatedButton(
+                  onPressed: () {},
+                  child: Text("Login"),
+                ),
               ],
             ),
           )
